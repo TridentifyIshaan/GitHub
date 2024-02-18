@@ -1,0 +1,86 @@
+<!--
+    
+    Forms are used to collect data from the user. Eg- Sign up / login / help requests / contact me / registeration.
+
+    Action in form- Action attribute is used to define what action needs to be performed when a form is submitted.
+
+    A. FORM ELEMENTS-
+
+    1. INPUT- <input type="text" placeholder="Enter Name">
+    2. Label- To label something. If label is used, if you click on the text who has been set as a value for label, radio button will get selected
+        > Radio buttons speciality is that you can select only one option from all the other options
+    3. Class & id- We can assign a class and if to a value
+    4. Checkbox- For multi correct options
+    5. Textarea- Used to create dialog boxes like for feedback
+        > rows & cols attribute is used to showcase space of n no. of rows and columns
+    6. Select- Used to create dropdown menu
+    7. To create submit button- <input type="submit" value="submit">
+    
+    B. Other Tags
+    1. iframe tag- <iframe src="link">
+        Used to embed a website into another website
+    2. Video Tag- <video src="link"> Name </video>
+
+    -->
+
+<!--
+    NOTE- Only the code will be shown on the website but result won't be working since I haven't created php file yet.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+    <h3> Registeration Form </h3>
+    <form action="/action.php">
+        
+        <input type="text" placeholder="Username">
+        <input type="password" placeholder="Password">
+        <br> Select your class along with the opted subjects <br><br>
+        <label for ="101">
+            <input type="radio" value="class X" name="class" id="101"> Class X
+        </label>
+        <label for="maths"> <input type="checkbox" value="maths" name="subject" id="1"> Maths</label>
+        <label for="chem"> <input type="checkbox" value="chem" name="subject" id="2"> Chem</label>
+        <label for="phy"> <input type="checkbox" value="phy" name="subject" id="3"> Phy </label>
+        <label for="it"> <input type="checkbox" value="it" name="subject" id="4"> IT </label>
+        <label for="eng"> <input type="checkbox" value="eng" name="subject" id="5"> Eng </label>
+        <label for="bio"> <input type="checkbox" value="bio" name="subject" id="6"> Bio </label>
+        <br>
+        <label for="102">
+            <input type="radio" value="class XII" name="class" id="102"> Class XII
+        </label>
+        <label for="maths"> <input type="checkbox" value="maths" name="subject" id="1"> Maths</label>
+        <label for="chem"> <input type="checkbox" value="chem" name="subject" id="2"> Chem</label>
+        <label for="phy"> <input type="checkbox" value="phy" name="subject" id="3"> Phy </label>
+        <label for="compsc"> <input type="checkbox" value="compsc" name="subject" id="4"> CompSc </label>
+        <label for="eng"> <input type="checkbox" value="eng" name="subject" id="5"> Eng </label>
+        <label for="bio"> <input type="checkbox" value="bio" name="subject" id="6"> Bio </label>
+        <br><br>
+        Select your city:
+        <select name="city">
+            <option value="Delhi">Delhi</option>
+            <option value="Delhi">Pune</option>
+            <option value="Delhi">Bangalore</option>
+            <option value="Delhi">Chennai</option>
+            <option value="Delhi">Mumbai</option>
+            <option value="Delhi">Vellore</option>
+            <option value="Delhi">Gurugram</option>
+        </select>
+        <br><br>
+        <iframe width="570" height="615" src="https://www.wikipedia.org/"> Wikipedia </iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen> HTML Tutorial for Beginners by Apna College </iframe> <!-- Copy an embed link of a YouTube video which can be shared -->
+        <br>
+        <video width="560" height="315" src="Memory.mp4" controls > Memory </video>
+        <video width="560" height="315" src="Memory.mp4" controls loop > Memory </video> <!-- To run a video on loop -->
+        <br><br>
+        <textarea name="feedback" id="103" placeholder="Please give your valuable feeback here" rows="10" cols="80"> Feedback </textarea>
+        <input type="submit" value="submit">
+
+    </form>
+</body>
+</html>
