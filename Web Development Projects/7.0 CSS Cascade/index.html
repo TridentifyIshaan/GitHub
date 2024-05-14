@@ -1,0 +1,60 @@
+<!--
+
+Order of Precedence from Highest to Lowest:
+
+              1. Order of Position from highest to lowest:
+
+                green ( #0000FF )
+                blue  ( #00FF00 )
+                red   ( #FF0000 )
+
+              2. Order of Specificity from highest to lowest:
+                
+                id
+                attribute
+                class
+                element
+
+              3. Order of Type from highest to lowest:
+
+
+                in-line cascading style
+                internal cascading style
+                external cascading style
+
+              4. Order of Importance:
+
+                color:red;
+                color: green !important;
+                
+                Here !important will have the highest order of importance
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Cascade</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div id="outer-box" class="box">
+    <div class="box">
+      <p>Yellow Text</p>
+      <div class="box inner-box">
+        <p class="white-text">White Text</p>
+      </div>
+    </div>
+    <div class="box">
+      <p>Yellow Text</p>
+      <div class="box inner-box">
+        <p class="white-text">White Text</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
