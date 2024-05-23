@@ -6,7 +6,47 @@
   <title>CSS Flag Project</title>
   <style>
     /* Write your CSS Code here */
+  
+    /*Red Rect*/
+    .flag {
+      width: 900px;
+      height: 600px;
+      background-color: #CE1126;
+    }
+
+    /*Blue Rect*/
+    .flag > div {
+      width: 100%;
+      height: 50%;
+      background-color: #002868;
+      position: relative;
+      top: 25%
     
+    }
+
+    /*White Circle*/
+    .flag > div > div {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background-color:white;
+      position: relative;
+      top: 50px;
+      left: 350px;
+    }
+
+    /*Deleting margins of all paragraph tags & changing & aligning text*/
+    p {
+      margin: 0;
+      font-size:5rem;
+      text-align: center;
+      color:white;
+    }
+
+    .flag div div p {
+      color: black;
+    }
+
   </style>
 </head>
 
