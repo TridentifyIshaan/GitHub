@@ -11,10 +11,69 @@
       font-family: 'Sono', sans-serif;
     }
 
-    /* Hint: What can you do with a media query and flexbox? */
-    @media (max-width: 1250px) {
-      
+    /*Task 1*/
+    .pricing-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      gap: 2rem;
     }
+
+    /*Task 2*/
+    .pricing-plan {
+      flex: 1;
+      max-width: 400px;
+      padding:20px;
+      background-color: #f2f2f2;
+      border-radius: 5px;
+      text-align: center;
+    }
+
+    /*Task 3*/
+    .plan-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }    
+
+    /*Task 4*/
+    .plan-price {
+      font-size: 48px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    /*Task 5*/
+    .plan-features {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    /*Task 6*/
+    .plan-features li {
+      margin-bottom: 20px;
+    }
+
+    /*Task 7*/
+    .plan-button {
+      padding:10px;
+      background-color: #ff6600;
+      color:#fff;
+      border-radius: 5px;
+      border:none;
+    }
+
+    /* Hint: What can you do with a media query and flexbox? */
+    /*Task 8*/
+    @media (max-width: 1250px) {
+      .pricing-container {
+        flex-direction: column;
+        height:100%;
+      }
+    }
+    
   </style>
 </head>
 
