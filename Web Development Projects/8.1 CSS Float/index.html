@@ -1,3 +1,5 @@
+<!-- Clear is used to remove any text from the float -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -19,17 +21,25 @@
       font-size: 2em;
     }
 
+    /* 1st */
+    img {
+      float: left;
+    }
+
     .cat {
       background-color: aquamarine;
+      float: left; /*2nd*/
     }
 
     .dog {
       background-color: coral;
+      float: right; /*2nd*/
     }
 
     footer {
       text-align: center;
       background-color: blueviolet;
+      clear: both; /*3rd*/
     }
   </style>
 </head>
