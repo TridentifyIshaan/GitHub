@@ -15,7 +15,7 @@ var Name = prompt("What is your name?");
 var firstChar = Name.slice(0,1)
 
 //b Turn the first char to upper case
-UC_firstChar = firstChar.toUpperCase();
+var UC_firstChar = firstChar.toUpperCase();
 
 //c Isolate the rest of the name
 Rest_Name = Name.slice(1, Name.length);
