@@ -8,7 +8,7 @@
 
 /*
 
-WAP that prints the numbers from 1-100. But for multiples of 3, print "Fizz" instead of the number & for the multiples of 5, print "Buzz". For numbers which are multiples of both 3 & 5, print "FizzBuzz".
+WAP that prints the numbers from 1 to whatever. But for multiples of 3, print "Fizz" instead of the number & for the multiples of 5, print "Buzz". For numbers which are multiples of both 3 & 5, print "FizzBuzz".
 
 */
 
