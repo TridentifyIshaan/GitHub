@@ -1,23 +1,16 @@
 /*
 > Date Created: June 10, 2024
 > Author: Ishaan Rastogi
-> Purpose: Better version of 8.js using while loop
+> Purpose: Better version of 10.js using for loop
 > Operating System: This is only for Windows OS, it may or may not work on other OS
 > Program Status: 100% Working
 */
 
-/*
-
-WAP that prints the numbers from 1 to 100. But for multiples of 3, print "Fizz" instead of the number & for the multiples of 5, print "Buzz". For numbers which are multiples of both 3 & 5, print "FizzBuzz".
-
-*/
-
 var output = [];
-var c = 1; //count
 
 //Creating function to push new numbers
 function fizzBuzz() {
-    while (c<= 100) {
+    for (var c = 1; c < 101; c++) {
         if ( c % 3 === 0) {
             output.push("Fizz");
         }
@@ -28,9 +21,8 @@ function fizzBuzz() {
             output.push("FizzBuzz");
         }
         else {
-            output.push(count);
+            output.push(c);
         }
-        c++;
     }
     console.log(output);
 }

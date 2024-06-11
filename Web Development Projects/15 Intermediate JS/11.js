@@ -1,7 +1,7 @@
-/*
+11.js/*
 > Date Created: June 10, 2024
 > Author: Ishaan Rastogi
-> Purpose: Write lyrics of the song 99 bottles of Beer.
+> Purpose: Write lyrics of the song 99 bottles of Beer using while loop
 > Operating System: This is only for Windows OS, it may or may not work on other OS
 > Program Status: 100% Working
 */
