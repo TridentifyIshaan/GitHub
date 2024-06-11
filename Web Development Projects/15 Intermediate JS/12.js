@@ -6,6 +6,12 @@
 > Program Status: 100% Working
 */
 
+/*
+
+While is used when you need to state & for when you need to iterate the function upto a certain number.
+
+*/
+
 var output = [];
 
 //Creating function to push new numbers
