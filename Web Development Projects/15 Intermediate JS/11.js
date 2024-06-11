@@ -1,4 +1,4 @@
-11.js/*
+/*
 > Date Created: June 10, 2024
 > Author: Ishaan Rastogi
 > Purpose: Write lyrics of the song 99 bottles of Beer using while loop
