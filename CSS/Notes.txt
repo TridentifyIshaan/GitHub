@@ -1,6 +1,0 @@
-Food brands use red and yellow colors in their logos because red is a color of passion. And both these colours help in increasing hunger.Red also creates happiness. Eg- Coca-Cola, McDonald's, Zomato
-
-Blue color is a color of security and stabilty. You can see that from examples. Eg- Paytm, Razorpay, Paypal, Phone Pe ( althought is is purple but it comes in family of blue), google duo, zoom, VS Code.
-
-CSS- Cascading Style Sheet
-It's a language that's used to describe the style of a html document.

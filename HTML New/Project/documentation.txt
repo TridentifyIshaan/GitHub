@@ -1,6 +1,0 @@
-Programme sequence list:
-
-    1. index.html
-    2. Edu.html
-    3. Exp.html
-    4. Projects.html
